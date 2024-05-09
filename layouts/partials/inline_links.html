@@ -5,7 +5,8 @@
   {{- with .GetPage $archivesPath -}}
     <span><a href="{{ .RelPermalink }}">Archives</a></span>
   {{- end -}}
-  {{- with .OutputFormats.Get "rss" -}}
+  <!-- {{- with .OutputFormats.Get "rss" -}}
     <span><a href="{{ .Permalink }}" target="_blank">RSS</a></span>
-  {{- end -}}
+  {{- end -}} -->
+  <!-- removed to disable RSS links -->
 </div>
